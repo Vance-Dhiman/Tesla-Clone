@@ -1,0 +1,32 @@
+Tesla Clone  - 
+
+npx create-react-app tesla-clone --template redux.
+click on readme.md and open in intergreated terminal.
+npm start
+
+remove whole header from app.js
+make a new folder inside src name components and inside compoenents we make Header.js.
+then we import the header in app.js
+
+For styling we use styled components.
+npm add styled-components
+By using styled components we can write our css inside js file and we can also wrap something with any name.
+
+.we put our image folder inside public.
+
+.To create animation we go to index.css.
+
+.In last accessories image we centered a button tell if rightbtntext exists only show that thing {rightBtnText && ....}.
+
+.We install the material ui and import it. go to its site. we install core & Icons.
+
+.In React we use react reveal for animations. checkout its website.
+.npm i react-reveal --save --force (for forcing)
+
+.We use useState to close the sidebar.
+
+.Now we are using redux first we go to components and then features and we make a folder inside features and we delete the counter.
+.then we go to app inside src and remove the import of counter file from store.js.
+.we import the createSlice in carSlice.js.
+.it's like slices of pizza so it's like a slices of a car.
+
